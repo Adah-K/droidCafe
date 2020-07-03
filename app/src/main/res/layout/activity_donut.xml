@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DonutActivity">
+
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/donut_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_margin="8dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/donut_image"
+                android:layout_width="match_parent"
+                android:paddingTop="20dp"
+                android:paddingBottom="10dp"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/recipe_image"
+                android:layout_height="150dp">
+
+            </ImageView>
+            <TextView
+                android:id="@+id/donut_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_title"
+                android:textColor="#FF1493"
+                android:padding="5dp"
+                android:layout_centerHorizontal="true"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:layout_below="@id/donut_image"
+                android:layout_marginTop="5dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+            </TextView>
+            <TextView
+                android:id="@+id/donut_prep_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prep_time"
+                android:textColor="#FFC0CB"
+                android:padding="10dp"
+                android:drawableStart="@drawable/ic_baseline_access_time"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_below="@id/donut_title"
+                android:layout_marginTop="4dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+            </TextView>
+            <!-- add a horizontal view below the prep time , to do this
+            add a view -->
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/donut_prep_time"
+                android:background="@color/grey">
+            </View>
+
+            <TextView
+                android:id="@+id/donut_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recipe_short_description"
+                android:textColor="#FF1493"
+                android:textStyle="italic"
+                android:layout_centerHorizontal="true"
+                android:padding="8dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_below="@id/divider"
+                android:layout_marginTop="3dp"
+                android:theme="@style/ThemeOverlay.AppCompat.Light">
+            </TextView>
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <RelativeLayout
+        android:layout_below="@+id/donut_cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/how_to_prepare"
+            android:textStyle="bold"
+            android:textColor="@color/grey"/>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

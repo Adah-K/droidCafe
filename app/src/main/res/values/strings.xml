@@ -1,0 +1,179 @@
+<resources>
+    <string name="app_name">Droid Cafe</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_dessert_recipe_fragment">Hello Dessert Recipe Fragment</string>
+    <string name="hello_pastries_recipe_fragment">Hello Pastries Recipe Fragment</string>
+    <string name="hello_stores_fragment">Hello Stores Fragment</string>
+    <string name="tab_one">Dessert</string>
+    <string name="tab_two">Pastries</string>
+    <string name="tab_three">Stores</string>
+    <string name="browse_our_recipes_collection">Browse our dessert menu</string>
+    <string name="dessert_recipe">Dessert Recipe</string>
+    <string name="recipe_title">Recipe Title</string>
+    <string name="prep_time">Prep $ Cook Time: 2 hrs</string>
+    <string name="recipe_short_description">Recipe short description</string>
+    <string name="pastries_short_description">Pastries short Description</string>
+    <string name="pastries_title">Pastries Title</string>
+    <string name="pastries_image">Pastries Image</string>
+    <string name="browse_our_pastries_collection">Browse our pastries menu</string>
+    <string name="stores_images">stores_images</string>
+    <string name="recipe_image">recipe_image</string>
+    <string name="store_name">store_name</string>
+    <string name="open_daily_from_7_00_a_m">Open daily from: 7:00 a.m</string>
+    <string name="stores_description">Stores description</string>
+    <string name="like">Like</string>
+    <string name="share">Share</string>
+    <string name="comment">Comment</string>
+    <string name="stores">Stores</string>
+    <string name="browse_our_list_of_stores">Browse our list of Stores</string>
+    <string name="how_to_prepare">How to Prepare</string>
+    <!--This is the array for the dessert images -->
+    <array name="dessert_images">
+        <item>@drawable/blueberries</item>
+        <item>@drawable/cookies</item>
+        <item>@drawable/cake</item>
+        <item>@drawable/yogurt</item>
+        <item>@drawable/bread</item>
+        <item>@drawable/coffee</item>
+        <item>@drawable/waffles</item>
+        <item>@drawable/donuts</item>
+        <item>@drawable/croissants</item>
+    </array>
+    <!--This is the string array which depends on the images above for the recipe title -->
+    <string-array name="dessert_recipe_title">
+        <item>Blueberries</item>
+        <item>Cookies</item>
+        <item>Cake</item>
+        <item>Yogurt</item>
+        <item>Bread</item>
+        <item>Coffee</item>
+        <item>Waffles</item>
+        <item>Donuts</item>
+        <item>Croissants</item>
+    </string-array>
+    <!-- This is the string array for the dessert description of each item -->
+    <string-array name="dessert_recipe_description">
+        <item>Blueberry muffins glazed with purple maple syrup</item>
+        <item> Bubblegum cookies with strawberry toppings</item>
+        <item>Fruit cake with chocolate toppings glazed with caramel</item>
+        <item>Vanilla yogurt pudding with strawberry toppings</item>
+        <item>Banana bread with icing sugar toppings</item>
+        <item>Vanilla late coffee double cup portion</item>
+        <item>Fluffy waffles with icing sugar toppings</item>
+        <item>Donuts glazed with chocolate toppings</item>
+        <item>Strawberry croissants with icing sugar toppings</item>
+    </string-array>
+    <!-- Pastries-->
+    <array name="pastries_images">
+        <item>@drawable/buns</item>
+        <item>@drawable/tart</item>
+        <item>@drawable/jam_scones</item>
+        <item>@drawable/bagel</item>
+        <item>@drawable/baguettes</item>
+        <item>@drawable/cakepops</item>
+        <item>@drawable/cupcake</item>
+        <item>@drawable/lime_cake</item>
+        <item>@drawable/pancake</item>
+        <item>@drawable/crepes</item>
+    </array>
+    <string-array name="pastries_recipe_title">
+        <item>Buns</item>
+        <item>Tarts</item>
+        <item>Jam Scones</item>
+        <item>Bagel</item>
+        <item>Baguettes</item>
+        <item>Cake Pops</item>
+        <item>Cupcakes</item>
+        <item>Lime Cake</item>
+        <item>Pancake</item>
+        <item>Crepes</item>
+    </string-array>
+    <string-array name="pastries_prep_time">
+        <item>Prep $ Cook Time: 3 hrs</item>
+        <item>Prep $ Cook Time: 30 minutes</item>
+        <item>Prep $ Cook Time: 1 hr</item>
+        <item>Prep $ Cook Time: 2 hrs</item>
+        <item>Prep $ Cook Time: 2.5 hrs</item>
+        <item>Prep $ Cook Time: 45 minutes</item>
+        <item>Prep $ Cook Time: 30 minutes</item>
+        <item>Prep $ Cook Time: 1.5 hrs</item>
+        <item>Prep $ Cook Time: 50 minutes hrs</item>
+        <item>Prep $ Cook Time: 45 minutes</item>
+    </string-array>
+    <string-array name="pastries_recipe_description">
+        <item>Hamburger buns with sesame seeds</item>
+        <item>Cheese tarts filled with strawberries</item>
+        <item>Jam Scones with frosting</item>
+        <item>Cardamon bagels with sesame seeds  </item>
+        <item>Brown baguettes with sesame seeds </item>
+        <item>Cake pops with sprinkles and white frosting</item>
+        <item>Red velvet chocolate cupcakes</item>
+        <item>Lime Cake with strawberry toppings</item>
+        <item>Pancake with maple syrup</item>
+        <item>Crepes with blueberry and icing sugar toppings </item>
+    </string-array>
+
+    <!-- This is Images for the Store -->
+    <string-array name="store_images">
+        <item>@drawable/bagel</item>
+        <item>@drawable/buns</item>
+        <item>@drawable/tart</item>
+        <item>@drawable/jam_scones</item>
+        <item>@drawable/bagel</item>
+        <item>@drawable/baguettes</item>
+        <item>@drawable/cupcake</item>
+        <item>@drawable/lime_cake</item>
+        <item>@drawable/pancake</item>
+        <item>@drawable/crepes</item>
+    </string-array>
+    <string-array name="store_names">
+        <item>Blueberries</item>
+        <item>Cookies</item>
+        <item>Cake</item>
+        <item>Yogurt</item>
+        <item>Bread</item>
+        <item>Coffee</item>
+        <item>Waffles</item>
+        <item>Donuts</item>
+        <item>Croissants</item>
+        <item>Tea</item>
+    </string-array>
+    <string-array name="store_time">
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+        <item>Open daily: 8:00 a.m - 7.00pm </item>
+    </string-array>
+    <string-array name="store_description">
+        <item>Located along Lenana Road </item>
+        <item>Located in Capital Center </item>
+        <item>Located along Tom Mboya Street</item>
+        <item>Located in Junction Mall</item>
+        <item>Located at Valley Arcade </item>
+        <item>Located at Hardy Post </item>
+        <item>Located in Galleria Mall </item>
+        <item>Located in ABC Place </item>
+        <item>Located in SouthField Mall </item>
+        <item>Located in Garden City </item>
+    </string-array>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+</resources>
