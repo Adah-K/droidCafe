@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:background="@drawable/tab_indicator"
+        android:background="@drawable/toolbar_indicator"
         android:minHeight="?attr/actionBarSize"
         app:titleTextAppearance="@style/app_title"
         app:logo="@mipmap/ic_my_app_logo"
