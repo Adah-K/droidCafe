@@ -69,28 +69,28 @@
     </string-array>
     <!-- Pastries-->
     <array name="pastries_images">
-        <item>@drawable/buns</item>
-        <item>@drawable/tart</item>
-        <item>@drawable/jam_scones</item>
-        <item>@drawable/bagel</item>
-        <item>@drawable/baguettes</item>
-        <item>@drawable/cakepops</item>
-        <item>@drawable/cupcake</item>
-        <item>@drawable/lime_cake</item>
-        <item>@drawable/pancake</item>
-        <item>@drawable/crepes</item>
+        <item>@drawable/p1</item>
+        <item>@drawable/p2</item>
+        <item>@drawable/p3</item>
+        <item>@drawable/p4</item>
+        <item>@drawable/p5</item>
+        <item>@drawable/p6</item>
+        <item>@drawable/p7</item>
+        <item>@drawable/p8</item>
+        <item>@drawable/p9</item>
+        <item>@drawable/p10</item>
     </array>
     <string-array name="pastries_recipe_title">
-        <item>Buns</item>
-        <item>Tarts</item>
-        <item>Jam Scones</item>
+        <item>Cookies</item>
+        <item>Scones</item>
+        <item>Danish Pastry</item>
         <item>Bagel</item>
-        <item>Baguettes</item>
-        <item>Cake Pops</item>
-        <item>Cupcakes</item>
-        <item>Lime Cake</item>
+        <item>Croissant</item>
+        <item>Muffins</item>
+        <item>Pie</item>
         <item>Pancake</item>
-        <item>Crepes</item>
+        <item>Macaroons</item>
+        <item>Tarts</item>
     </string-array>
     <string-array name="pastries_prep_time">
         <item>Prep $ Cook Time: 3 hrs</item>
@@ -105,42 +105,42 @@
         <item>Prep $ Cook Time: 45 minutes</item>
     </string-array>
     <string-array name="pastries_recipe_description">
-        <item>Hamburger buns with sesame seeds</item>
-        <item>Cheese tarts filled with strawberries</item>
-        <item>Jam Scones with frosting</item>
-        <item>Cardamon bagels with sesame seeds  </item>
-        <item>Brown baguettes with sesame seeds </item>
-        <item>Cake pops with sprinkles and white frosting</item>
-        <item>Red velvet chocolate cupcakes</item>
-        <item>Lime Cake with strawberry toppings</item>
-        <item>Pancake with maple syrup</item>
-        <item>Crepes with blueberry and icing sugar toppings </item>
+        <item>Brown Butter Chocolate Chip Cookies</item>
+        <item>Cherry Scones</item>
+        <item>Chocolate Danish Pastries</item>
+        <item>Cinnamon Bagels</item>
+        <item>Cream Cheese Croissants</item>
+        <item>Double Chocolate Muffins</item>
+        <item>Maple Apple Pie</item>
+        <item>Vanilla and Cinnamon Pancakes</item>
+        <item>White Chocolate Raspberry Macaroons</item>
+        <item>Mixed Fruit Tart</item>
     </string-array>
 
     <!-- This is Images for the Store -->
     <string-array name="store_images">
-        <item>@drawable/bagel</item>
-        <item>@drawable/buns</item>
-        <item>@drawable/tart</item>
-        <item>@drawable/jam_scones</item>
-        <item>@drawable/bagel</item>
-        <item>@drawable/baguettes</item>
-        <item>@drawable/cupcake</item>
-        <item>@drawable/lime_cake</item>
-        <item>@drawable/pancake</item>
-        <item>@drawable/crepes</item>
+        <item>@drawable/s1</item>
+        <item>@drawable/s2</item>
+        <item>@drawable/s3</item>
+        <item>@drawable/s4</item>
+        <item>@drawable/s5</item>
+        <item>@drawable/s6</item>
+        <item>@drawable/s7</item>
+        <item>@drawable/s8</item>
+        <item>@drawable/s9</item>
+        <item>@drawable/s10</item>
     </string-array>
     <string-array name="store_names">
-        <item>Blueberries</item>
-        <item>Cookies</item>
-        <item>Cake</item>
-        <item>Yogurt</item>
-        <item>Bread</item>
-        <item>Coffee</item>
-        <item>Waffles</item>
-        <item>Donuts</item>
-        <item>Croissants</item>
-        <item>Tea</item>
+        <item>Angie Dessert</item>
+        <item>Blue birds!</item>
+        <item>DanFranco Bakery</item>
+        <item>Edel Pastries!</item>
+        <item>La Rosa Pastries</item>
+        <item>McAllen shop</item>
+        <item>Nadia bakery!</item>
+        <item>Panash Pastries</item>
+        <item>Red Ribbon</item>
+        <item>Yamazaki bakery</item>
     </string-array>
     <string-array name="store_time">
         <item>Open daily: 8:00 a.m - 7.00pm </item>
@@ -166,6 +166,8 @@
         <item>Located in SouthField Mall </item>
         <item>Located in Garden City </item>
     </string-array>
+
+
     <string name="title_activity_navigation_drawer">NavigationDrawer</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
