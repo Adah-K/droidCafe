@@ -30,39 +30,42 @@
     <string name="how_to_prepare">How to Prepare</string>
     <!--This is the array for the dessert images -->
     <array name="dessert_images">
-        <item>@drawable/blueberries</item>
-        <item>@drawable/cookies</item>
-        <item>@drawable/cake</item>
-        <item>@drawable/yogurt</item>
-        <item>@drawable/bread</item>
-        <item>@drawable/coffee</item>
-        <item>@drawable/waffles</item>
-        <item>@drawable/donuts</item>
-        <item>@drawable/croissants</item>
+        <item>@drawable/d1</item>
+        <item>@drawable/d2</item>
+        <item>@drawable/d3</item>
+        <item>@drawable/d4</item>
+        <item>@drawable/d5</item>
+        <item>@drawable/d6</item>
+        <item>@drawable/d7</item>
+        <item>@drawable/d8</item>
+        <item>@drawable/d9</item>
+        <item>@drawable/d10</item>
     </array>
     <!--This is the string array which depends on the images above for the recipe title -->
     <string-array name="dessert_recipe_title">
-        <item>Blueberries</item>
-        <item>Cookies</item>
-        <item>Cake</item>
-        <item>Yogurt</item>
-        <item>Bread</item>
-        <item>Coffee</item>
-        <item>Waffles</item>
         <item>Donuts</item>
-        <item>Croissants</item>
+        <item>Waffles</item>
+        <item>Cookies</item>
+        <item>Cupcake</item>
+        <item>Eclairs</item>
+        <item>Brownies</item>
+        <item>Cheesecake</item>
+        <item>Snack Cake</item>
+        <item>Layer Cake</item>
+        <item>Yogurt</item>
     </string-array>
     <!-- This is the string array for the dessert description of each item -->
     <string-array name="dessert_recipe_description">
-        <item>Blueberry muffins glazed with purple maple syrup</item>
-        <item> Bubblegum cookies with strawberry toppings</item>
-        <item>Fruit cake with chocolate toppings glazed with caramel</item>
-        <item>Vanilla yogurt pudding with strawberry toppings</item>
-        <item>Banana bread with icing sugar toppings</item>
-        <item>Vanilla late coffee double cup portion</item>
-        <item>Fluffy waffles with icing sugar toppings</item>
-        <item>Donuts glazed with chocolate toppings</item>
-        <item>Strawberry croissants with icing sugar toppings</item>
+        <item>Baked Nutella donuts</item>
+        <item> Buttermilk waffles</item>
+        <item>Chocolate Chip Cookie Ice Cream Sandwiches</item>
+        <item>Chocolate strawberry cupcake</item>
+        <item>Eclairs with Peanut Butter Mousse Filling</item>
+        <item>Fudge brownies</item>
+        <item>Oreo Cheesecake</item>
+        <item>Pineapple crumble snack cake</item>
+        <item>Raspberry Chocolate layer cake</item>
+        <item>Yogurt and berries with muesli</item>
     </string-array>
     <!-- Pastries-->
     <array name="pastries_images">
